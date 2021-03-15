@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: lightseagreen;
+  margin-bottom: 2%;
+  padding: 0.5%;
+  color: rgb(23, 0, 73);
+}
+
+.card-image {
+  overflow: hidden;
+  position: relative;
+  transition: transform .25s;
+  width: 100%;
+}
+
+.card-image:hover {
+  transform: scale(1.02);
+}
+
+.card-title {
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
