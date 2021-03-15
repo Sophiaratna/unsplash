@@ -1,4 +1,4 @@
-# Technical assignment from Bolt Global
+# Unsplash clone
 
 ## Requirement
 1. Main image
